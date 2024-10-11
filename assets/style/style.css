@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+h2 {
+    color: #4070ec;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form fieldset {
+    border: none;
+}
+
+.form legend {
+    font-size: 1.5rem;
+    color: #4070ec;
+    margin-bottom: 15px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 500;
+}
+
+.form input[type="text"], .form input[type="email"], .form input[type="tel"], .form input[type="number"], .form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    resize: none;
+}
+
+.form input:focus, .form select:focus {
+    border-color: #4070ec;
+    outline: none;
+}
+
+button {
+    background-color: #4070ec;
+    border: none;
+    padding: 0.8rem;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3058b3;
+}
